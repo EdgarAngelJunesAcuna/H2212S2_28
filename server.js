@@ -7,7 +7,7 @@ app.use(express.static(__dirname+'/'));
 
 //Enrutamiento
 app.get('/',(req,res) => {
-    res.sendFile("home/ubuntu/projects/landing/menu.html")
+    res.sendFile("C:\Users\User\Desktop\landing\menu.html")
 });
 
 
