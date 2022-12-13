@@ -1,8 +1,6 @@
-const http = require('http');
+var express = require('express');
 
-const express = require('express');
-
-const app = express();
+var app = express();
 
 //recursos
 app.use(express.static(__dirname,'/'));
