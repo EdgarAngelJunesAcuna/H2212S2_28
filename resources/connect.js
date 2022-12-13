@@ -9,7 +9,7 @@ app.use(cors());
 var conexion = mysql.createConnection({
   host: "Localhost",
   user: "root",
-  password: "MELIODAS.COM123",
+  password: "",
   database: "dbRestaurante",
 });
 
@@ -27,7 +27,7 @@ app.listen(puerto, function () {
   console.log("Servidor funcionando en puerto: " + puerto);
 });
 
-app.post("/api/pedido", (req, res) => {
+app.post("/api/formulario", (req, res) => {
 	let data = {
     	userped: req.body.USERPED,
     	emausped: req.body.EMAUSPED,
