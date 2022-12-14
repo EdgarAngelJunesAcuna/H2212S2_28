@@ -7,7 +7,7 @@ app.use(express.static(__dirname+'/'));
 
 //Enrutamiento
 app.get('/',(req,res) => {
-    res.sendFile("/home/ubuntu/Colegio-Asia-Lainding-Page/menu.html")
+    res.sendFile("/home/ubuntu/projects/landing/menu.html")
 });
 
 app.listen(3000);
