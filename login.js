@@ -50,7 +50,7 @@ app.post("/api/contactanos", (req, res) => {
 });
 
 app.get('/', function (req, res) {
-	res.sendFile(__dirname + "/index.html");
+	res.sendFile(__dirname + "/menu.html");
 });
 
 app.get('/login', function (req, res) {
