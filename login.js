@@ -50,14 +50,14 @@ app.post("/api/contactanos", (req, res) => {
 });
 
 app.get('/', function (req, res) {
-	res.sendFile(__dirname + "/index.html");
+	res.sendFile(__dirname + "/menu.html");
 });
 
 app.get('/login', function (req, res) {
 	res.sendFile(__dirname + "/login.html");
 });
 
-// http://localhost:3000/auth
+// http://18.209.134.36:3000/auth
 app.post('/auth', function (request, response) {
 	console.log('DATOS : ', request.body);
 	let username = request.body.username;
