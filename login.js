@@ -57,7 +57,7 @@ app.get('/login', function (req, res) {
 	res.sendFile(__dirname + "/login.html");
 });
 
-// http://18.209.134.36:3000/auth
+// http://localhost:3000/auth
 app.post('/auth', function (request, response) {
 	console.log('DATOS : ', request.body);
 	let username = request.body.username;
