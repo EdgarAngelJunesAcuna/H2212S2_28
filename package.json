@@ -2,9 +2,9 @@
   "name": "landing",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "connect.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node connect.js"
   },
   "repository": {
     "type": "git",
